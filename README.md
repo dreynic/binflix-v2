@@ -9,7 +9,7 @@ You can access the live version of the application at:
 
 ## Features
 
-- Search for movies and TV series by title, genre, and release year.
+- Search for movies and TV series by title.
 - View detailed information about each title, including synopsis, ratings, and posters.
 - Responsive design for optimal viewing on both desktop and mobile devices.
 
