@@ -24,13 +24,13 @@ export default function MovieDetail() {
   if (!movie) return <div>Loading...</div>; // Tampilkan loading jika data belum ada
 
   return (
-    <div className="text-white px-[7%] flex mt-24 mb-10 ml-[5%] bg-gradient-to-t">
+    <div className="text-white flex flex-wrap mt-24 mb-10 ml-[5%] bg-gradient-to-t lg:flex-nowrap lg:px-[7%]">
       <img
         src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
         alt={movie.title}
         className="rounded-lg w-72"
       />
-      <div className="text-left ml-10">
+      <div className="text-left ml-0 mt-7 lg:ml-10 lg:mt-0">
         <h1 className="text-4xl font-bold mb-5">{movie.title}</h1>
         <p className="text-2xl font-bold mb-5 text-white"><FontAwesomeIcon icon={faStar} /> {movie.vote_average}</p>
         <div className="mb-5 w-[80%] min-w-[60%]">
